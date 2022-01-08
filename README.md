@@ -10,16 +10,11 @@ Reusing design patterns help prevent subtle issues that cause major problems, an
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
 - [Types of Design Patterns](#types-of-design-patterns)
   - [Behavioral](#behavioral)
   - [Creational](#creational)
   - [Structural](#structural)
 - [License](#license)
-
-## Prerequisites
-
-- Ruby 3.1
 
 ## Types of Design Patterns
 
