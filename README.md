@@ -24,7 +24,7 @@ Reusing design patterns help prevent subtle issues that cause major problems, an
  >
  >**Source:** [wikipedia.org](https://en.wikipedia.org/wiki/Behavioral_pattern)
 
-- [Bridge](creational/bridge.md)
+- [Bridge](behavioral/bridge.md)
 
 ### Creational
 
