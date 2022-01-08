@@ -64,7 +64,7 @@ class TV
 end
 ```
 
-## Usage
+### Usage
 
 ```ruby
 remote_control = RemoteControl.new
@@ -74,4 +74,11 @@ remote_control.turn_on
 
 remote_control.appliance = TV.new
 remote_control.turn_on
+```
+
+### Output
+
+```text
+Turning the lamp on
+Turning the tv on
 ```
