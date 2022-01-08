@@ -66,6 +66,34 @@ class CarBuilder
   end
 end
 
+class MotorcycleBuilder
+  include VehicleBuilder
+
+  def frame(frame)
+    @frame = "Motorcycle - " + frame
+    return self
+  end
+
+  def engine(engine)
+    @engine = "Motorcycle - " + engine
+    return self
+  end
+
+  def wheels(wheels)
+    @wheels = wheels
+    return self
+  end
+
+  def doors(doors)
+    @doors = doors
+    return self
+  end
+
+  def build
+    return Vehicle.new(@frame || "", @engine || "", @wheels || 0, @doors || 0)
+  end
+end
+
 class Vehicle
   def initialize(frame, engine, wheels, doors)
     @frame = frame
@@ -92,4 +120,23 @@ puts car.inspect
 
 ```text
 #<Vehicle:0x00007fa8e382feb8 @frame="Frame", @engine="Engine", @wheels=4, @doors=4>
+```
+
+## Director Usage
+
+```ruby
+motorcycle_builder = MotorcycleBuilder.new
+  .frame("Frame")
+  .engine("Engine")
+  .wheels(4)
+  .doors(4)
+
+motorcyle = Shop.new.build(motorcycle_builder)
+puts motorcyle.inspect
+```
+
+### Output Director
+
+```text
+#<Vehicle:0x00007fd03600fe98 @frame="Motorcycle - Frame", @engine="Motorcycle - Engine", @wheels=4, @doors=4>
 ```
