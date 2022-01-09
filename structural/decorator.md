@@ -4,7 +4,8 @@ The decorator pattern is used to extend or alter the functionality of objects at
 
 ## Example
 
-```rubymodule Element
+```ruby
+module Element
   def image_path
     raise "Not implemented"
   end
