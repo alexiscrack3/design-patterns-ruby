@@ -37,7 +37,11 @@ Reusing design patterns help prevent subtle issues that cause major problems, an
 
 ### Structural
 
-TODO
+ >In software engineering, structural design patterns are design patterns that ease the design by identifying a simple way to realize relationships between entities.
+ >
+ >**Source:** [wikipedia.org](https://en.wikipedia.org/wiki/Structural_pattern)
+
+- [Decorator](structural/decorator.md)
 
 ## License
 
