@@ -34,6 +34,7 @@ Reusing design patterns help prevent subtle issues that cause major problems, an
  >**Source:** [wikipedia.org](https://en.wikipedia.org/wiki/Creational_pattern)
 
 - [Builder](creational/builder.md)
+- [Singleton](creational/singleton.md)
 
 ### Structural
 
